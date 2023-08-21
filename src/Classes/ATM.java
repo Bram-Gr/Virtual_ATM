@@ -87,14 +87,12 @@ public class ATM {
                             System.out.println("Please enter a deposit amount:");
                             String inputChD = userInput.nextLine();
                             ch.deposit(inputChD);
-                            System.out.println("Your updated Checking Account balance is $" + ch.getBalance());
                             activeMenu = MAIN_MENU_OPTIONS;
                             break;
                         case MAKE_DEPOSIT_OPTION_SAVINGS:
                             System.out.println("Please enter a deposit amount:");
                             String inputSavD = userInput.nextLine();
                             sav.deposit(inputSavD);
-                            System.out.println("Your updated Savings Account balance is $" + sav.getBalance());
                             activeMenu = MAIN_MENU_OPTIONS;
                             break;
                         case MAIN_MENU_OPTION_MAKE_WITHDRAWAL_:
