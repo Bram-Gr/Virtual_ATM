@@ -4,5 +4,5 @@
 
 <ul>
   <li>Full ATM functionality</li>
-  <li>Users can interact with the program the a command line interface</li>
+  <li>Users can interact with the program through a command line interface</li>
 </ul>
